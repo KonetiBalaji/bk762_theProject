@@ -1,0 +1,11 @@
+# Created at 2024-12-09T12:57:51.118
+[SUREFIRE] std/in stream corrupted
+java.io.IOException: Stream closed
+	at java.base/java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:168)
+	at java.base/java.io.BufferedInputStream.read(BufferedInputStream.java:267)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:393)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+
+
