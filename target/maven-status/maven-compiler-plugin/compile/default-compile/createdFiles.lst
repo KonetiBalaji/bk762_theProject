@@ -1,0 +1,7 @@
+org\example\ExpenseManager.class
+org\example\StatisticsManager.class
+org\example\Main.class
+org\example\Expense.class
+org\example\User.class
+org\example\UserManager.class
+org\example\ExportManager.class
